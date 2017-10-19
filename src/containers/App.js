@@ -1,8 +1,11 @@
 import React from 'react'
 
 import Banner from "../components/Banner"
-import Features from "../components/Features"
+import Flows from "../components/Flows"
 import Header from "../components/Header"
+import Meshblu from "../components/Meshblu"
+import Stacks from "../components/Stacks"
+import Things from "../components/Things"
 
 export default class App extends React.Component {
   render() {
@@ -10,7 +13,10 @@ export default class App extends React.Component {
       <div>
         <Header />
         <Banner />
-        <Features />
+        <Things />
+        <Meshblu />
+        <Flows />
+        <Stacks />
       </div>
     )
   }

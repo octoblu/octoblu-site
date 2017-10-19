@@ -7,10 +7,11 @@ const Container = styled.div`
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px;
+  max-width: 60rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   width: 100%;
+  position: relative;
 `
 
 export default Container

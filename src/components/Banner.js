@@ -31,7 +31,7 @@ const SubTitle = styled.h3`
 const Banner =  () => (
   <Section>
     <Container column>
-      <Title>Internet of Everything</Title>
+      <Title>Integration of Things</Title>
       <SubTitle>Octoblu is a multi-protocol Internet of Things platform that enables you to create secure IoT services.</SubTitle>
     </Container>
   </Section>
