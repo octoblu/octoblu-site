@@ -5,15 +5,16 @@ import Container from "./Container"
 
 const Section = styled.section`
   background: #FFF;
+  color: #000;
   padding: 10rem 0;
   position: relative;
 `
 
 const SectionTitle = styled.h3`
   font-family: 'Montserrat', sans-serif;
-  font-size: 3rem;
-  font-weight: 400;
-  margin-bottom: 1.5rem;
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
 `
 
 const SectionBody = styled.div`
@@ -30,8 +31,8 @@ const ThingGrid = styled.div`
   top: -7rem;
   right: 0;
   max-width: 22.5rem;
-  background: #FFF;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  ${'' /* background: #FFF; */}
+  ${'' /* box-shadow: 0 2px 10px rgba(0,0,0,0.2); */}
 
   img {
     width: 3rem;
@@ -46,7 +47,7 @@ const Things = () => (
     <Container>
       <SectionBody>
 
-        <SectionTitle>It all starts with <em>Things</em>...</SectionTitle>
+        <SectionTitle>Things</SectionTitle>
         <p>
           Octoblu provides a platform to connect smart devices, wearables, sensors, cars, homes, offices, robots and web services together.
         </p>
