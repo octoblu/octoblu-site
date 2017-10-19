@@ -44,7 +44,7 @@ const ThingGrid = styled.div`
 
 const Browser = styled.div`
   border: 1px solid #ffafa3;
-  border-top-width: 2rem;
+  border-top-width: 3rem;
   width: 30rem;
   height: 20rem;
   background: #FFF;
