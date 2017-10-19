@@ -6,6 +6,7 @@ import Header from "../components/Header"
 import Meshblu from "../components/Meshblu"
 import Stacks from "../components/Stacks"
 import Things from "../components/Things"
+import OpenSource from "../components/OpenSource"
 
 export default class App extends React.Component {
   render() {
@@ -16,7 +17,7 @@ export default class App extends React.Component {
         <Things />
         <Meshblu />
         <Flows />
-        <Stacks />
+        <OpenSource />
       </div>
     )
   }
